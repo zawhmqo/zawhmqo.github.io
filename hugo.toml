@@ -1,3 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://zawhmqo.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Digital Solace'
+theme = 'archie'
+copyright = "W'zamqo Rhid"
+
+# Syntax highlighting
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+pagination.pagerSize = 25
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[params.social]]
+name = "Bluesky"
+icon = "cloud"
+url = "https://bsky.app/profile/wzamqo.bsky.social"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/zawhmqo"
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
