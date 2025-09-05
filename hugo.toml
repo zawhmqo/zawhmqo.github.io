@@ -11,6 +11,19 @@ pygmentscodefencesguesssyntax = true
 
 pagination.pagerSize = 25
 
+[outputs]
+home = ['html', 'rss']
+
+[params]
+mode = "auto"
+useCDN = true
+subtitle = "Sorcery with source code"
+mathjax = false
+katex = false
+
+[params.meta]
+favicon = true
+
 [[menu.main]]
 name = "Home"
 url = "/"
